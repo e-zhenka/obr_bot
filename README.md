@@ -39,9 +39,10 @@ venv\Scripts\activate     # для Windows
 pip install -r requirements.txt
 ```
 4. Запустите приложение
- ```bash
-python app.py```
-7. Приложение будет доступно на ```http://localhost:5000/```
+```bash
+python app.py
+```
+7. Приложение будет доступно на ``http://localhost:5000/``
 
 ### Запуск через Docker
 
