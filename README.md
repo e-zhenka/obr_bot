@@ -38,7 +38,7 @@ cp .env_example .env
 
 ### Локальный запуск
 
-2. Создайте виртуальное окружение:
+1. Создайте виртуальное окружение:
 ```bash
 python -m venv venv
 source venv/bin/activate  # для Linux/Mac
@@ -52,7 +52,7 @@ pip install -r requirements.txt
 ```bash
 python app.py
 ```
-7. Приложение будет доступно на ``http://localhost:5000/``
+5. Приложение будет доступно на ``http://localhost:5000/``
 
 ### Запуск через Docker
 
@@ -62,3 +62,4 @@ python app.py
 ```bash
 docker-compose up --build
 ```
+4. Приложение будет доступно на ``http://localhost:5000/``
