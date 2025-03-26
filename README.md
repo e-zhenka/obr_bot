@@ -38,7 +38,10 @@ venv\Scripts\activate     # для Windows
 ```bash
 pip install -r requirements.txt
 ```
-4. Создайте файл .env и добавьте API ключ:
+4. Запустите приложение
+ ```bash
+python app.py```
+7. Приложение будет доступно на ```http://localhost:5000/```
 
 ### Запуск через Docker
 
