@@ -26,7 +26,11 @@
 ```bash
 git clone https://github.com/e-zhenka/obr_bot.git
 ```
-3.  Скопируйте файл .env_example в .env: 
+2.  Перейдите в папку obr-bot
+```bash
+cd obr_bot
+```
+4.  Скопируйте файл .env_example в .env: 
 ```bash
 cp .env_example .env
 ```
