@@ -23,8 +23,14 @@
 
 ## Настройка окружения
 1.  Клонируйте репозиторий
-2.  Скопируйте файл .env_example в .env: ```cp .env_example .env```
-3.  Отредактируйте .env файл, добавив свой OPENROUTER_API_KEY
+```bash
+git clone https://github.com/e-zhenka/obr_bot.git
+```
+3.  Скопируйте файл .env_example в .env: 
+```bash
+cp .env_example .env
+```
+5.  Отредактируйте .env файл, добавив свой OPENROUTER_API_KEY
 
 ### Локальный запуск
 
